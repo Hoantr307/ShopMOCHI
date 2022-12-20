@@ -30,3 +30,7 @@ function fadeOut(){
 }
 
 window.onload = fadeOut();
+
+function myFunction(){
+  document.getElementById("sale").style.display = "none"
+}
