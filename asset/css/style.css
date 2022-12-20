@@ -82,7 +82,6 @@ section{
 header{
   position: relative;
   top:0; left: 0; right:0;
-  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -563,7 +562,6 @@ header .navbar a:hover{
 .loader-container{
   position: fixed;
   top:0; left:0;
-  z-index: 10000;
   background:#fff;
   display: flex;
   align-items: center;
@@ -584,7 +582,7 @@ header .navbar a:hover{
   bottom: 0;
   left: 0;
   right: 0;
-
+  z-index: 1;
 }
 #sale .overlay{
   position: absolute;
@@ -599,10 +597,10 @@ header .navbar a:hover{
   position: relative;
   display: flex;
   width: 800px;
-  z-index: 2;
+  z-index: 3;
 }
 .sale-body .box-left{
-  background-color: #362f2f;
+  background-color: #615757;
   text-align: center;
   width: 50%;
   height: 400px;
@@ -618,6 +616,8 @@ header .navbar a:hover{
 }
 .sale-body .box-right img{
   background-size: cover;
+  
+  height: 100%;
 }
 .sale-body .box-left h1{
   padding-top: 40px;
