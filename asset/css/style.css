@@ -178,7 +178,7 @@ header .navbar a:hover{
   flex:1 1 30rem;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
   border:.1rem solid rgba(0,0,0,.3);
   cursor: pointer;
   border-radius: .5rem;
@@ -230,7 +230,7 @@ header .navbar a:hover{
 .popular .box-container .box{
   padding:2rem;
   background:#fff;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
   border:.1rem solid rgba(0,0,0,.3);
   border-radius: .5rem;
   text-align: center;
@@ -245,6 +245,7 @@ header .navbar a:hover{
   border-radius: .5rem;
 }
 
+
 .popular .box-container .box .price{
   position: absolute;
   top:3rem; left:3rem;
@@ -257,7 +258,7 @@ header .navbar a:hover{
 
 .popular .box-container .box h3{
   color:#333;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-top: 1rem;
 }
 
@@ -321,17 +322,17 @@ header .navbar a:hover{
   width:100%;
   background:rgba(255,255,255,.9);
   padding:2rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
 .gallery .box-container .box .content h3{
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#333;
 }
 
 .gallery .box-container .box .content p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color:#666;
   padding:1rem 0;
 }
